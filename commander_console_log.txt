@@ -1,0 +1,9 @@
+Starting Halal Warmachine... 
+Traceback (most recent call last):
+  File "C:\Python310\lib\runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Python310\lib\runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\default.DESKTOP-H89VL85\Desktop\halal_warmachine\core\commander.py", line 8, in <module>
+    from agents.exec_agent import ExecAgent
+ModuleNotFoundError: No module named 'agents.exec_agent'

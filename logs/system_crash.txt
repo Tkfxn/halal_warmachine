@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "C:\Users\default.DESKTOP-H89VL85\Desktop\halal_warmachine\main.py", line 56, in <module>
+    schedule_tasks()
+  File "C:\Users\default.DESKTOP-H89VL85\Desktop\halal_warmachine\main.py", line 40, in schedule_tasks
+    from core.telegram_alerts import send_daily_summary
+  File "C:\Users\default.DESKTOP-H89VL85\Desktop\halal_warmachine\core\telegram_alerts.py", line 46
+    
+Traceback (most recent call last):
+  File "C:\Users\default.DESKTOP-H89VL85\Desktop\halal_warmachine\main.py", line 56, in <module>
+    schedule_tasks()
+  File "C:\Users\default.DESKTOP-H89VL85\Desktop\halal_warmachine\main.py", line 40, in schedule_tasks
+    from core.telegram_alerts import send_daily_summary
+  File "C:\Users\default.DESKTOP-H89VL85\Desktop\halal_warmachine\core\telegram_alerts.py", line 46
+    
+Traceback (most recent call last):
+  File "C:\Users\default.DESKTOP-H89VL85\Desktop\halal_warmachine\main.py", line 56, in <module>
+    schedule_tasks()
+  File "C:\Users\default.DESKTOP-H89VL85\Desktop\halal_warmachine\main.py", line 40, in schedule_tasks
+    from core.telegram_alerts import send_daily_summary
+  File "C:\Users\default.DESKTOP-H89VL85\Desktop\halal_warmachine\core\telegram_alerts.py", line 8, in <module>
+    from strategy_evolver import get_pattern_scores
+ModuleNotFoundError: No module named 'strategy_evolver'

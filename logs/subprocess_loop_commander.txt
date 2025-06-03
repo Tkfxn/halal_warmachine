@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "C:\Users\default.DESKTOP-H89VL85\Desktop\halal_warmachine\agents\loop_commander.py", line 5, in <module>
+    import redis
+ModuleNotFoundError: No module named 'redis'

@@ -1,0 +1,53 @@
+
+--- CMD Output Boot at Fri May 30 19:08:58 2025 ---
+Traceback (most recent call last):
+  File "C:\Users\default.DESKTOP-H89VL85\Desktop\halal_warmachine\core\commander.py", line 5, in <module>
+    from core import exec_agent, macro_coach, strategy_evolver, log_uploader
+ModuleNotFoundError: No module named 'core'
+Traceback (most recent call last):
+  File "C:\Users\default.DESKTOP-H89VL85\Desktop\halal_warmachine\core\exec_agent.py", line 5, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+Traceback (most recent call last):
+  File "C:\Users\default.DESKTOP-H89VL85\Desktop\halal_warmachine\dashboard.py", line 1, in <module>
+    import streamlit as st
+ModuleNotFoundError: No module named 'streamlit'
+Traceback (most recent call last):
+  File "C:\Users\default.DESKTOP-H89VL85\Desktop\halal_warmachine\core\strategy_evolver.py", line 68, in <module>
+    evolver.evolve_strategy()
+  File "C:\Users\default.DESKTOP-H89VL85\Desktop\halal_warmachine\core\strategy_evolver.py", line 64, in evolve_strategy
+    print("\u26a0\ufe0f No new trade data to evolve from.")
+  File "C:\Python310\lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 0-1: character maps to <undefined>
+Traceback (most recent call last):
+  File "C:\Users\default.DESKTOP-H89VL85\Desktop\halal_warmachine\agents\pulse_sniper.py", line 4, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+Traceback (most recent call last):
+  File "C:\Users\default.DESKTOP-H89VL85\Desktop\halal_warmachine\agents\wallet_watcher.py", line 4, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+C:\Python310\python.exe: can't open file 'C:\\Users\\default.DESKTOP-H89VL85\\Desktop\\halal_warmachine\\agents\\book_watcher.py': [Errno 2] No such file or directory
+Traceback (most recent call last):
+  File "C:\Users\default.DESKTOP-H89VL85\Desktop\halal_warmachine\core\macro_coach.py", line 42, in <module>
+    coach = MacroCoach()
+  File "C:\Users\default.DESKTOP-H89VL85\Desktop\halal_warmachine\core\macro_coach.py", line 17, in __init__
+    self.load_log()
+  File "C:\Users\default.DESKTOP-H89VL85\Desktop\halal_warmachine\core\macro_coach.py", line 25, in load_log
+    print("\u26a0\ufe0f Trade log not found.")
+  File "C:\Python310\lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 0-1: character maps to <undefined>
+Traceback (most recent call last):
+  File "C:\Users\default.DESKTOP-H89VL85\Desktop\halal_warmachine\core\log_uploader.py", line 4, in <module>
+    from pydrive.auth import GoogleAuth
+ModuleNotFoundError: No module named 'pydrive'
+[Commander] Execution Agent crashed: 'symbols'
+Traceback (most recent call last):
+  File "C:\Users\default.DESKTOP-H89VL85\Desktop\halal_warmachine\core\commander.py", line 72, in wrapper
+    target()
+  File "C:\Users\default.DESKTOP-H89VL85\Desktop\halal_warmachine\core\exec_agent.py", line 62, in run
+    symbols = s["symbols"]
+KeyError: 'symbols'
+

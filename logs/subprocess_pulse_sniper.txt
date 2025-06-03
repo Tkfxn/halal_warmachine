@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "C:\Users\default.DESKTOP-H89VL85\Desktop\halal_warmachine\agents\pulse_sniper.py", line 4, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'

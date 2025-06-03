@@ -1,0 +1,8 @@
+# requirements.txt
+# File Location: C:\Users\default.DESKTOP-H89VL85\Desktop\halal_warmachine\requirements.txt
+
+redis
+requests
+streamlit
+schedule
+python-binance

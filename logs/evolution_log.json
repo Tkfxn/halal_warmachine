@@ -1,0 +1,19 @@
+[
+  {
+    "timestamp": "2025-05-30T23:58:23.858861",
+    "metrics": {
+      "total_trades": 36,
+      "last_trade": {
+        "timestamp": "2025-05-27T03:17:37.034715",
+        "outcome": "win",
+        "reason": "perfect entry on breakout",
+        "pnl": 3.22
+      },
+      "symbols_traded": [],
+      "side_counts": {
+        "BUY": 0,
+        "SELL": 0
+      }
+    }
+  }
+]

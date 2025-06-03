@@ -1,0 +1,29 @@
+binance:
+  api_key: CueL87oLc7bJXTrzOIhu9EagkWY7ThhXlX6UkzQ96JYcExEYmOhd7dooHw6HeHwC
+  api_secret: DG8S1PRbdLPHTkuevY92qsB4DzPHZIaFOzYQiEZp3l0HCIOt2RM6ZmdTPkHUdPMM
+  testnet: false
+
+symbols:
+  - BTCUSDT
+  - ETHUSDT
+  - BNBUSDT
+  - XRPUSDT
+  - DOGEUSDT
+  - ADAUSDT
+  - SOLUSDT
+  - TRXUSDT
+
+min_trade_amount_usd: 0.0001
+max_trades_per_hour: 100
+trade_hours:
+  start: "00:00"
+  end: "23:59"
+mode: live
+
+gpt:
+  model: gpt-4o
+  max_calls_per_day: 2000
+  trading_hours:
+    start: 00:00
+    end: 23:59
+    timezone: Asia/Bahrain
