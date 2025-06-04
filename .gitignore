@@ -9,3 +9,6 @@ __pycache__/
 *.exe
 .DS_Store
 logs/
+*.pyd
+*.exe
+*.so
