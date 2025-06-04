@@ -7,8 +7,6 @@ __pycache__/
 *.log
 *.zip
 *.exe
+*.so
 .DS_Store
 logs/
-*.pyd
-*.exe
-*.so
