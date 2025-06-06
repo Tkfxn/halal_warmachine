@@ -4,8 +4,10 @@
 import time
 import random
 from agents.strategy_evolver import evolve_logic
+from agents.drive_sync_agent import start_drive_sync
 
 print("[COMMANDER] Live Trading Loop Starting...")
+start_drive_sync()
 
 while True:
     try:
