@@ -3,6 +3,9 @@ from pydrive.auth import GoogleAuth
 from pydrive.drive import GoogleDrive
 import os, time
 
+LOG_FILE = "logs/drive_sync_log.txt"
+os.makedirs("logs", exist_ok=True)
+
 def init_drive():
     gauth = GoogleAuth()
     if os.path.exists("mycreds.txt"):
@@ -31,6 +34,9 @@ def upload_logs(drive):
             file_drive.SetContentFile(filepath)
             file_drive.Upload()
             print(f"[DriveSync] Uploaded: {filename}")
+            with open(LOG_FILE, "a", encoding="utf-8") as f:
+                timestamp = time.strftime('%Y-%m-%d %H:%M:%S')
+                f.write(f"[{timestamp}] Uploaded {filename}\n")
         except Exception as e:
             print(f"[DriveSync] Failed to upload {filename}: {e}")
 
